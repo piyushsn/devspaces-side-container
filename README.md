@@ -26,6 +26,13 @@
  oc get route | grep 8080
  ```
  
- Once in the browser, make sure `http` prefix is used. Append `/greeting` to the URL and you will see REST Api response.
+ Once in the browser, make sure `http` prefix is used. Append `/greeting` to the URL and you will see REST API response.
+ 
+ The application connects to the locally running PostgreSQL which is a very powerul concept. There is also h2 profile available, which can be enabled like this:
+ ```
+ mvn spring-boot:run -Dspring-boot.run.profiles=h2
+ ```
+ You can then access h2 console by appending `h2-console` in the browser.
+ Application Logs also shows that the sql integration is succesful - you will see User table being created.
  
 
