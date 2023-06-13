@@ -32,7 +32,7 @@
  ```
  mvn spring-boot:run -Dspring-boot.run.profiles=h2
  ```
- You can then access h2 console by appending `h2-console` in the browser.
+ You can then access h2 console by appending `/h2-console` in the browser.
  Application Logs also shows that the sql integration is succesful - you will see User table being created.
  
 
