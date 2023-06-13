@@ -17,6 +17,8 @@
  
  ## How to use
  
+ ! IMPORTANT ! Before you demo this, fork it, and change the devspaces URLs references in the above "Open in..." links.
+ 
  ```bash
  mvn spring-boot:run
  ```
